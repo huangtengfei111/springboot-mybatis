@@ -1,0 +1,32 @@
+server:
+  port: 8083
+
+eureka:
+  client:
+    enabled: false
+
+spring:
+  redis:
+    host: 120.77.39.56
+    port: 6379
+    timeout: 10000
+    password:
+  data:
+    mongodb:
+      host: 120.77.39.56
+      port: 27017
+# mysql
+  datasource:
+    url: jdbc:mysql://localhost:3306/redis
+    username: root
+    password: h199310
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+#      database: htf
+
+#      database2: test
+
+
+
+
