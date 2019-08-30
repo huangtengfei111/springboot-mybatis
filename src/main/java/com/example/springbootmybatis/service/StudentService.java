@@ -45,6 +45,7 @@ public class StudentService {
             redisTemplate.opsForValue().set("student1", student);
             redisTemplate.opsForHash().put("student", student.getName(), student);
         }
+
         return student;
     }
 }
